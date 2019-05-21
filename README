@@ -1,1 +1,2 @@
 docker run -ti 866410466419.dkr.ecr.eu-central-1.amazonaws.com/yb-build-java:latest /bin/bash
+docker run -v `pwd`:/devel/src -ti 866410466419.dkr.ecr.eu-central-1.amazonaws.com/yb-build-java:latest
